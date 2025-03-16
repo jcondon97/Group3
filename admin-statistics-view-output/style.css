@@ -125,6 +125,9 @@
   inset: 0;
 }
 .rectangle-62 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
   background: var(--umd-red, #e21833);
   border-radius: 90px;
   width: 128.93px;
@@ -132,25 +135,6 @@
   position: absolute;
   left: 1300px;
   top: 1489px;
-}
-.edi-t {
-  color: #ffffff;
-  text-align: center;
-  font-family: var(
-    --buttons-links-font-family,
-    "BebasNeue-Regular",
-    sans-serif
-  );
-  font-size: var(--buttons-links-font-size, 36px);
-  font-weight: var(--buttons-links-font-weight, 400);
-  position: absolute;
-  left: 1304.13px;
-  top: 1502.7px;
-  width: 120.17px;
-  height: 21.04px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .sign-out {
   color: #ffffff;
