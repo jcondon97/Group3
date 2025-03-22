@@ -1,0 +1,38 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --d9d9d9: #ffffff;
+  --background-white: #ffffff;
+  --umd-red: #e21833;
+  --umd-gold-secondary: #ffd520;
+  --accent: #000000;
+
+  /* Fonts */
+  --h1-page-title-font-family: BebasNeue-Regular, sans-serif;
+  --h1-page-title-font-size: 48px;
+  --h1-page-title-line-height: normal;
+  --h1-page-title-font-weight: 400;
+  --h1-page-title-font-style: normal;
+  --h2-section-headers-font-family: BebasNeue-Regular, sans-serif;
+  --h2-section-headers-font-size: 36px;
+  --h2-section-headers-line-height: normal;
+  --h2-section-headers-font-weight: 400;
+  --h2-section-headers-font-style: normal;
+  --h3-subheaders-font-family: BebasNeue-Regular, sans-serif;
+  --h3-subheaders-font-size: 24px;
+  --h3-subheaders-line-height: normal;
+  --h3-subheaders-font-weight: 400;
+  --h3-subheaders-font-style: normal;
+  --body-text-font-family: OpenSans-Regular, sans-serif;
+  --body-text-font-size: 20px;
+  --body-text-line-height: normal;
+  --body-text-font-weight: 400;
+  --body-text-font-style: normal;
+  --buttons-links-font-family: BebasNeue-Regular, sans-serif;
+  --buttons-links-font-size: 36px;
+  --buttons-links-line-height: normal;
+  --buttons-links-font-weight: 400;
+  --buttons-links-font-style: normal;
+
+  /* Effects */
+}
