@@ -1,113 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vars.css">
-  <link rel="stylesheet" href="./style.css">
-  
-  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UMD Club Rugby | Registration Status</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <style>
-   a,
-   button,
-   input,
-   select,
-   h1,
-   h2,
-   h3,
-   h4,
-   h5,
-   * {
-       box-sizing: border-box;
-       margin: 0;
-       padding: 0;
-       border: none;
-       text-decoration: none;
-       background: none;
-   
-       -webkit-font-smoothing: antialiased;
-   }
-   
-   menu, ol, ul {
-       list-style-type: none;
-       margin: 0;
-       padding: 0;
-   }
-   </style>
-  <title>Document</title>
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+
+    .navbar {
+      background-color: #E21833;
+    }
+
+    .sidebar {
+      background-color: #E21833;
+      color: white;
+      padding: 1.5rem 1rem;
+      font-size: 0.95rem;
+      height: 100%;
+      height: 350px;
+    }
+
+    .sidebar h5 {
+      font-weight: bold;
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .sidebar .step {
+      margin-bottom: 1rem;
+      font-weight: bold;
+      line-height: 1.2;
+    }
+
+    .sidebar .step span {
+      display: block;
+      color: #000;
+      font-weight: normal;
+    }
+
+    .content-box {
+      background-color: #e9e9e9;
+      padding: 0.8rem 1rem;
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin-top: 1rem;
+      width: 300px
+    }
+
+    .status-message {
+      margin-top: 1.5rem;
+      font-size: 1.25rem;
+      line-height: 1.6;
+    }
+    
+  </style>
 </head>
 <body>
-  <div class="registration-member">
-    <div class="rectangle-13"></div>
-    <div class="registration-status">Registration Status</div>
-    <div class="umd-club-rugby-r-egistration-page">
-      UMD Club Rugby
-      <br />
-      REgistration Page
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">UMD Club Rugby</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Registration</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Merchandise</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Statistics</a></li>
+        </ul>
+      </div>
+      <span class="text-white ms-3">Welcome Member</span>
+      <a href="#" class="btn btn-outline-light ms-2">Sign Out</a>
     </div>
-    <img class="image" src="image0.png" />
-    <img class="image-2" src="image-20.png" />
-    <div class="rectangle-4"></div>
-    <div class="rectangle-3"></div>
-    <div class="sign-out">Sign Out</div>
-    <img class="images-1" src="images-10.png" />
-    <div class="registration">Registration</div>
-    <div class="merchandise">Merchandise</div>
-    <div class="statistics">Statistics</div>
-    <div class="welcome-member">Welcome Member</div>
-    <div
-      class="current-status-denied-you-may-have-been-denied-for-the-following-reasons-did-not-sign-up-for-im-leagues-did-not-pay-dues-once-you-have-completed-everything-resubmit-to-get-approved"
-    >
-      <span>
-        <span
-          class="current-status-denied-you-may-have-been-denied-for-the-following-reasons-did-not-sign-up-for-im-leagues-did-not-pay-dues-once-you-have-completed-everything-resubmit-to-get-approved-span"
-        >
-          Current Status:
-        </span>
-        <span
-          class="current-status-denied-you-may-have-been-denied-for-the-following-reasons-did-not-sign-up-for-im-leagues-did-not-pay-dues-once-you-have-completed-everything-resubmit-to-get-approved-span2"
-        >
-          Denied
-          <br />
-          <br />
-        </span>
-        <span
-          class="current-status-denied-you-may-have-been-denied-for-the-following-reasons-did-not-sign-up-for-im-leagues-did-not-pay-dues-once-you-have-completed-everything-resubmit-to-get-approved-span3"
-        >
-          You may have been denied for the following reasons:
-          <br />
-        </span>
-        <ol
-          class="current-status-denied-you-may-have-been-denied-for-the-following-reasons-did-not-sign-up-for-im-leagues-did-not-pay-dues-once-you-have-completed-everything-resubmit-to-get-approved-span4"
-        >
-          <li>Did not sign up for imLeagues</li>
-          <li>Did not pay dues</li>
-        </ol>
-        <span
-          class="current-status-denied-you-may-have-been-denied-for-the-following-reasons-did-not-sign-up-for-im-leagues-did-not-pay-dues-once-you-have-completed-everything-resubmit-to-get-approved-span5"
-        >
-          <br />
-          Once you have completed everything, resubmit to get approved.
-          <br />
-          <br />
-          <br />
-        </span>
-      </span>
-    </div>
-    <div class="rectangle-6"></div>
-    <div class="how-to-register">How to register:</div>
-    <div class="step-1">Step 1:</div>
-    <div class="step-3">Step 3:</div>
-    <div class="step-4">Step 4:</div>
-    <div class="step-5">Step 5:</div>
-    <div class="step-2">Step 2:</div>
-    <div class="sign-in">Sign in</div>
-    <div class="check-status">Check status</div>
-    <div class="get-approved">Get approved</div>
-    <div class="pay">Pay</div>
-    <div class="imleagu-es">IMLEAGUEs</div>
-  </div>
-  
+  </nav>
+
+  <div class="container-fluid mt-4">
+    <div class="row">
+      <div class="col-md-2 sidebar">
+        <h5>HOW TO REGISTER:</h5>
+        <div class="step">STEP 1:<span>SIGN IN</span></div>
+        <div class="step">STEP 2:<span><u>IMLEAGUES</u></span></div>
+        <div class="step">STEP 3:<span><u>PAY</u></span></div>
+        <div class="step">STEP 4:<span>GET APPROVED</span></div>
+        <div class="step">STEP 5:<span>CHECK STATUS</span></div>
+      </div>
+
+      <div class="col-md-10 px-4">
+        <h2 class="content-box">REGISTRATION STATUS</h2>
+        <div class="status-message">
+          <p><strong>CURRENT STATUS:</strong> <u>DENIED</u></p>
+      
+          <p class="mt-4"><strong>YOU MAY HAVE BEEN DENIED FOR THE FOLLOWING REASONS:</strong></p>
+          <ol style="font-weight: bold;">
+            <li>DID NOT SIGN UP FOR IMLEAGUES</li>
+            <li>DID NOT PAY DUES</li>
+          </ol>
+      
+          <p class="mt-4"><strong>ONCE YOU HAVE COMPLETED EVERYTHING, RESUBMIT TO GET APPROVED.</strong></p>
+        </div>
+      </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

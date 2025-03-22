@@ -1,128 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vars.css">
-  <link rel="stylesheet" href="./style.css">
-  
-  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UMD Club Rugby | Registration</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <style>
-   a,
-   button,
-   input,
-   select,
-   h1,
-   h2,
-   h3,
-   h4,
-   h5,
-   * {
-       box-sizing: border-box;
-       margin: 0;
-       padding: 0;
-       border: none;
-       text-decoration: none;
-       background: none;
-   
-       -webkit-font-smoothing: antialiased;
-   }
-   
-   menu, ol, ul {
-       list-style-type: none;
-       margin: 0;
-       padding: 0;
-   }
-   </style>
-  <title>Document</title>
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+
+    .navbar {
+      background-color: #E21833;
+    }
+
+    .sidebar {
+      background-color: #E21833;
+      color: white;
+      padding: 1.5rem 1rem;
+      font-size: 0.95rem;
+      height: 100%;
+      height: 350px;
+    }
+
+    .sidebar h5 {
+      font-weight: bold;
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .sidebar .step {
+      margin-bottom: 1rem;
+      font-weight: bold;
+      line-height: 1.2;
+    }
+
+    .sidebar .step span {
+      display: block;
+      color: #000;
+      font-weight: normal;
+    }
+
+    .content-box {
+      background-color: #e0e0e0;
+      padding: 0.8rem 1rem;
+      font-weight: bold;
+      font-size: 1.75rem;
+      margin-top: 1rem;
+      width: fit-content;
+    }
+
+    .info-box {
+      background-color: #e0e0e0;
+      padding: 1.5rem;
+      font-size: 1.25rem;
+      margin-top: 1rem;
+      width: 1000px;
+    }
+
+    .info-box ol {
+      margin-top: 1rem;
+    }
+
+    .info-box li {
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+
+    .info-box .subtext {
+      font-size: 1rem;
+      font-weight: normal;
+      margin-left: 1rem;
+      margin-top: -0.5rem;
+    }
+  </style>
 </head>
 <body>
-  <div class="registration-home">
-    <div class="rectangle-14"></div>
-    <div class="rectangle-13"></div>
-    <div class="welcome-to-the-registration-page">
-      Welcome to the Registration Page
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">UMD Club Rugby</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Registration</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Merchandise</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Statistics</a></li>
+        </ul>
+      </div>
+      <span class="text-white ms-3">Welcome Member</span>
+      <a href="#" class="btn btn-outline-light ms-2">Sign Out</a>
     </div>
-    <div class="umd-club-rugby-r-egistration-page">
-      UMD Club Rugby
-      <br />
-      REgistration Page
+  </nav>
+
+  <div class="container-fluid mt-4">
+    <div class="row">
+      <div class="col-md-2 sidebar">
+        <h5>HOW TO REGISTER:</h5>
+        <div class="step">STEP 1:<span>SIGN IN</span></div>
+        <div class="step">STEP 2:<span><u>IMLEAGUES</u></span></div>
+        <div class="step">STEP 3:<span><u>PAY</u></span></div>
+        <div class="step">STEP 4:<span>GET APPROVED</span></div>
+        <div class="step">STEP 5:<span>CHECK STATUS</span></div>
+      </div>
+
+      <div class="col-md-10 px-4">
+        <h2 class="content-box">WELCOME TO THE REGISTRATION PAGE</h2>
+
+        <div class="info-box">
+          <p><strong>WANT TO JOIN THE TEAM? FOLLOW THESE STEPS USING THE LEFT NAVIGATION.</strong></p>
+          <ol>
+            <li>SIGN IN OR CREATE AN ACCOUNT.</li>
+            <li>SIGN UP ON IMLEAGUES.
+              <p class="subtext">Sign in with your UMD SSO. Navigate to Club Sports. Select “Join Team” next to Men’s Rugby. Complete your personal form, concussion quiz, and sign the participation form.</p>
+            </li>
+            <li>PAY YOUR DUES THROUGH PAYPAL.
+              <p class="subtext">Dues are $120.</p>
+            </li>
+            <li>CONFIRM YOUR SIGNUP AND WAIT FOR APPROVAL.</li>
+            <li>CHECK YOUR STATUS.</li>
+          </ol>
+        </div>
+      </div>
     </div>
-    <img class="image" src="image0.png" />
-    <img class="image-2" src="image-20.png" />
-    <div class="rectangle-4"></div>
-    <div class="rectangle-3"></div>
-    <div class="sign-out">Sign Out</div>
-    <img class="images-1" src="images-10.png" />
-    <div class="registration">Registration</div>
-    <div class="merchandise">Merchandise</div>
-    <div class="statistics">Statistics</div>
-    <div class="welcome-member">Welcome Member</div>
-    <div
-      class="want-to-join-the-team-follow-these-steps-using-the-left-navigation-sign-in-or-create-an-account-sign-up-on-imleagues-sign-in-with-your-umd-sso-navigate-to-club-sports-select-join-team-next-to-men-s-rugby-complete-your-personal-form-concussion-quiz-and-sign-the-participation-form-pay-your-dues-through-paypal-dues-are-120-confirm-your-signup-and-wait-for-approval-check-your-status"
-    >
-      <span>
-        <span
-          class="want-to-join-the-team-follow-these-steps-using-the-left-navigation-sign-in-or-create-an-account-sign-up-on-imleagues-sign-in-with-your-umd-sso-navigate-to-club-sports-select-join-team-next-to-men-s-rugby-complete-your-personal-form-concussion-quiz-and-sign-the-participation-form-pay-your-dues-through-paypal-dues-are-120-confirm-your-signup-and-wait-for-approval-check-your-status-span"
-        >
-          want to join the team? Follow these steps using the left navigation.
-          <br />
-        </span>
-        <ol
-          class="want-to-join-the-team-follow-these-steps-using-the-left-navigation-sign-in-or-create-an-account-sign-up-on-imleagues-sign-in-with-your-umd-sso-navigate-to-club-sports-select-join-team-next-to-men-s-rugby-complete-your-personal-form-concussion-quiz-and-sign-the-participation-form-pay-your-dues-through-paypal-dues-are-120-confirm-your-signup-and-wait-for-approval-check-your-status-span2"
-        >
-          <li>Sign in or create an account.</li>
-          <li>Sign up on imleagues.</li>
-        </ol>
-        <span
-          class="want-to-join-the-team-follow-these-steps-using-the-left-navigation-sign-in-or-create-an-account-sign-up-on-imleagues-sign-in-with-your-umd-sso-navigate-to-club-sports-select-join-team-next-to-men-s-rugby-complete-your-personal-form-concussion-quiz-and-sign-the-participation-form-pay-your-dues-through-paypal-dues-are-120-confirm-your-signup-and-wait-for-approval-check-your-status-span3"
-        ></span>
-        <span
-          class="want-to-join-the-team-follow-these-steps-using-the-left-navigation-sign-in-or-create-an-account-sign-up-on-imleagues-sign-in-with-your-umd-sso-navigate-to-club-sports-select-join-team-next-to-men-s-rugby-complete-your-personal-form-concussion-quiz-and-sign-the-participation-form-pay-your-dues-through-paypal-dues-are-120-confirm-your-signup-and-wait-for-approval-check-your-status-span4"
-        >
-          Sign in with your UMD SSO. Navigate to club sports. select “Join team”
-          next to men’s rugby.
-          <br />
-          Complete your personal form, concussion quiz, and sign the participation
-          form.
-          <br />
-        </span>
-        <ol
-          class="want-to-join-the-team-follow-these-steps-using-the-left-navigation-sign-in-or-create-an-account-sign-up-on-imleagues-sign-in-with-your-umd-sso-navigate-to-club-sports-select-join-team-next-to-men-s-rugby-complete-your-personal-form-concussion-quiz-and-sign-the-participation-form-pay-your-dues-through-paypal-dues-are-120-confirm-your-signup-and-wait-for-approval-check-your-status-span5"
-        >
-          <li>pay your dues through paypal.</li>
-        </ol>
-        <span
-          class="want-to-join-the-team-follow-these-steps-using-the-left-navigation-sign-in-or-create-an-account-sign-up-on-imleagues-sign-in-with-your-umd-sso-navigate-to-club-sports-select-join-team-next-to-men-s-rugby-complete-your-personal-form-concussion-quiz-and-sign-the-participation-form-pay-your-dues-through-paypal-dues-are-120-confirm-your-signup-and-wait-for-approval-check-your-status-span6"
-        ></span>
-        <span
-          class="want-to-join-the-team-follow-these-steps-using-the-left-navigation-sign-in-or-create-an-account-sign-up-on-imleagues-sign-in-with-your-umd-sso-navigate-to-club-sports-select-join-team-next-to-men-s-rugby-complete-your-personal-form-concussion-quiz-and-sign-the-participation-form-pay-your-dues-through-paypal-dues-are-120-confirm-your-signup-and-wait-for-approval-check-your-status-span7"
-        >
-          dues are $120.
-          <br />
-        </span>
-        <ol
-          class="want-to-join-the-team-follow-these-steps-using-the-left-navigation-sign-in-or-create-an-account-sign-up-on-imleagues-sign-in-with-your-umd-sso-navigate-to-club-sports-select-join-team-next-to-men-s-rugby-complete-your-personal-form-concussion-quiz-and-sign-the-participation-form-pay-your-dues-through-paypal-dues-are-120-confirm-your-signup-and-wait-for-approval-check-your-status-span8"
-        >
-          <li>Confirm your signup and wait for approval.</li>
-          <li>Check your status.</li>
-        </ol>
-      </span>
-    </div>
-    <div class="rectangle-6"></div>
-    <div class="how-to-register">How to register:</div>
-    <div class="step-1">Step 1:</div>
-    <div class="step-3">Step 3:</div>
-    <div class="step-4">Step 4:</div>
-    <div class="step-5">Step 5:</div>
-    <div class="step-2">Step 2:</div>
-    <div class="sign-in">Sign in</div>
-    <div class="check-status">Check status</div>
-    <div class="get-approved">Get approved</div>
-    <div class="pay">Pay</div>
-    <div class="imleagu-es">IMLEAGUEs</div>
   </div>
-  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
