@@ -1,0 +1,307 @@
+.desktop-1,
+.desktop-1 * {
+  box-sizing: border-box;
+}
+.desktop-1 {
+  background: #ffffff;
+  height: 1293px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.upcoming-game-umd-v-navy {
+  color: #000000;
+  text-align: left;
+  font-family: "BebasNeue-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  text-decoration: underline;
+  position: absolute;
+  left: 532px;
+  top: 647px;
+}
+.group-2 {
+  position: absolute;
+  inset: 0;
+}
+.frame-1 {
+  width: 1098px;
+  height: 300px;
+  position: absolute;
+  left: calc(50% - 577px);
+  top: 299px;
+  overflow: hidden;
+}
+.image-5 {
+  width: 275.09px;
+  height: 300px;
+  position: absolute;
+  left: 143px;
+  top: 299px;
+  object-fit: cover;
+  aspect-ratio: 275.09/300;
+}
+.image-6 {
+  width: 272.38px;
+  height: 300px;
+  position: absolute;
+  left: 418px;
+  top: 299px;
+  object-fit: cover;
+  aspect-ratio: 272.38/300;
+}
+.image-7 {
+  width: 274px;
+  height: 300px;
+  position: absolute;
+  left: 690px;
+  top: 299px;
+  object-fit: cover;
+  aspect-ratio: 274/300;
+}
+.image-8 {
+  width: 277.35px;
+  height: 300px;
+  position: absolute;
+  left: 964px;
+  top: 299px;
+  object-fit: cover;
+  aspect-ratio: 277.35/300;
+}
+.group-5 {
+  position: absolute;
+  inset: 0;
+}
+.group-3 {
+  width: 250px;
+  height: 100px;
+  position: static;
+}
+.rectangle-6 {
+  background: var(--umd-red, #e21833);
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  left: 308px;
+  top: 785px;
+}
+.join-the-team {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(
+    --buttons-links-font-family,
+    "BebasNeue-Regular",
+    sans-serif
+  );
+  font-size: var(--buttons-links-font-size, 36px);
+  font-weight: var(--buttons-links-font-weight, 400);
+  position: absolute;
+  left: 316px;
+  top: 813px;
+  width: 233px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-6 {
+  position: absolute;
+  inset: 0;
+}
+.group-4 {
+  width: 250px;
+  height: 100px;
+  position: static;
+}
+.rectangle-7 {
+  background: var(--umd-red, #e21833);
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  left: 854px;
+  top: 785px;
+}
+.spring-2025-schedule {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(
+    --buttons-links-font-family,
+    "BebasNeue-Regular",
+    sans-serif
+  );
+  font-size: var(--buttons-links-font-size, 36px);
+  font-weight: var(--buttons-links-font-weight, 400);
+  position: absolute;
+  left: 862px;
+  top: 813px;
+  width: 233px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-9 {
+  width: 478px;
+  height: 315px;
+  position: absolute;
+  left: 9px;
+  top: 1002px;
+  object-fit: cover;
+  aspect-ratio: 478/315;
+}
+.image-10 {
+  width: 478px;
+  height: 315px;
+  position: absolute;
+  left: 924px;
+  top: 1002px;
+  object-fit: cover;
+  aspect-ratio: 478/315;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-5 {
+  background: var(--accent, #000000);
+  width: 916px;
+  height: 320px;
+  position: absolute;
+  left: 262px;
+  top: 942px;
+}
+.welcome-to-umd-men-s-club-rugby-where-strength-strategy-and-teamwork-define-every-match-stay-updated-on-games-gear-up-with-exclusive-merch-and-join-the-squad-dominate-the-field-feartheturtle {
+  color: var(--d9d9d9, #ffffff);
+  text-align: center;
+  font-family: "BebasNeue-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 372.56px;
+  top: 964.52px;
+  width: 728.93px;
+  height: 195.11px;
+}
+.umd-club-rugby-registration-page {
+  color: #000000;
+  text-align: left;
+  font-family: "BebasNeue-Regular", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  position: absolute;
+  left: 213px;
+  top: 64px;
+  width: 527px;
+  height: 178px;
+}
+.image {
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  left: 110px;
+  top: 217px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.image-2 {
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  left: 34px;
+  top: 217px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.images-1 {
+  width: 220px;
+  height: 217px;
+  position: absolute;
+  left: -10px;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 220/217;
+}
+.rectangle-3 {
+  background: #e21833;
+  opacity: 0.5;
+  width: 183px;
+  height: 37px;
+  position: absolute;
+  left: 1231px;
+  top: 27px;
+}
+.rectangle-4 {
+  background: #e21833;
+  opacity: 0.5;
+  width: 183px;
+  height: 37px;
+  position: absolute;
+  left: 1231px;
+  top: 64px;
+}
+.sign-out {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 1263px;
+  top: 68px;
+  width: 187px;
+  height: 37px;
+}
+.welcome-guest {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 1263px;
+  top: 38px;
+  width: 187px;
+  height: 37px;
+}
+.merchandise {
+  color: #000000;
+  text-align: left;
+  font-family: var(
+    --h2-section-headers-font-family,
+    "BebasNeue-Regular",
+    sans-serif
+  );
+  font-size: var(--h2-section-headers-font-size, 36px);
+  font-weight: var(--h2-section-headers-font-weight, 400);
+  position: absolute;
+  left: 858px;
+  top: 79px;
+}
+.registration {
+  color: #000000;
+  text-align: left;
+  font-family: var(
+    --h2-section-headers-font-family,
+    "BebasNeue-Regular",
+    sans-serif
+  );
+  font-size: var(--h2-section-headers-font-size, 36px);
+  font-weight: var(--h2-section-headers-font-weight, 400);
+  position: absolute;
+  left: 620px;
+  top: 79px;
+}
+.statistics {
+  color: #000000;
+  text-align: left;
+  font-family: var(
+    --h2-section-headers-font-family,
+    "BebasNeue-Regular",
+    sans-serif
+  );
+  font-size: var(--h2-section-headers-font-size, 36px);
+  font-weight: var(--h2-section-headers-font-weight, 400);
+  position: absolute;
+  left: 1093px;
+  top: 79px;
+}
